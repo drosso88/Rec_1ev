@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="clinica_veterinaria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="perro" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nombre"/>
+              <xs:element type="xs:string" name="raza"/>
+              <xs:element type="xs:string" name="fecha_nacimiento"/>
+              <xs:element name="propietario">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="dni" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="nombredueno"/>
+              <xs:element type="xs:string" name="apellidos"/>
+              <xs:element name="consulta">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:int" name="factura_id" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="fecha_consulta"/>
+              <xs:element type="xs:string" name="descripcion"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="chip" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/rocio/OneDrive/Documentos/NetBeansProjects/Rec_1ev/esquema_perros.xsd" uri="xml-resources/jaxb/perros_binding/esquema_perros.xsd"/>
+</catalog>
