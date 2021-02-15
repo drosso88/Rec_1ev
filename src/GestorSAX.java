@@ -1,3 +1,4 @@
+
 import java.io.File;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -7,6 +8,7 @@ import javax.xml.parsers.SAXParserFactory;
  * @author rocio
  */
 public class GestorSAX {
+
     SAXParser parser;
     ManejadorSAX sh;
     File miXML;
@@ -26,15 +28,11 @@ public class GestorSAX {
 
     public String recorreSAX() {
         try {
-            sh.salida="";
-            parser.parse(miXML,sh);
+            sh.salida = "";
+            parser.parse(miXML, sh);
             return sh.salida;
         } catch (Exception e) {
             return "No se ha podido recorrer SAX, intentalo mas tarde";
         }
     }
-
-   
-    }
-    
-
+}

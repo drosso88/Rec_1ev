@@ -1,47 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <clinica_veterinaria>
     <perro chip="09579335">
         <nombre>Arya</nombre>
         <raza>Mestiza</raza>
         <fecha_nacimiento>09-11-2018</fecha_nacimiento>
-        <propietario dni="945867495f"></propietario>
+        <propietario dni="945867495f"/>
         <nombredueno>Rocio</nombredueno>
         <apellidos>Quiere Aprobar</apellidos>
-        <consulta factura_id="3967376"></consulta>
+        <consulta factura_id="3967376"/>
         <fecha_consulta>01-03-2019</fecha_consulta>
         <descripcion>desparasitación interna</descripcion>
     </perro>
     <perro chip="e5867546">
-        <nombre>Yeniséi</nombre>
+        <nombre>Yenisei</nombre>
         <raza>Pastor Aleman</raza>
         <fecha_nacimiento>03-11-2018</fecha_nacimiento>
-        <propietario dni="X935793573Y"></propietario>
+        <propietario dni="X935793573Y"/>
         <nombredueno>Igor Quiere</nombredueno>
         <apellidos>Que RocioApruebe</apellidos>
-        <consulta factura_id="4756563"></consulta>
+        <consulta factura_id="4756563"/>
         <fecha_consulta>01-04-2020</fecha_consulta>
         <descripcion>Vacuna de tos de las perreras</descripcion>
     </perro>
     <perro chip="37656363">
-        <nombre>Rocky</nombre>
+        <nombre>CarmenMon</nombre>
         <raza>Staffy</raza>
         <fecha_nacimiento>03-11-2020</fecha_nacimiento>
-        <propietario dni="X9343573Y"></propietario>
-        <nombredueno>Claudia</nombredueno>
-        <apellidos>Badila</apellidos>
-        <consulta factura_id="983679856"></consulta>
+        <propietario dni="8762865865q"/>
+        <nombredueno>Carmen</nombredueno>
+        <apellidos>Montejo</apellidos>
+        <consulta factura_id="983679856"/>
         <fecha_consulta>04-01-2020</fecha_consulta>
         <descripcion>Tratamiento de colirio para conjuntivitis</descripcion>
     </perro>
     <perro chip="96798576">
-        <nombre>LaProfesora</nombre>
+        <nombre>CarmenMon</nombre>
         <raza>Husky</raza>
         <fecha_nacimiento>03-09-2010</fecha_nacimiento>
-        <propietario dni="8367864"></propietario>
+        <propietario dni="8762865865q"/>
         <nombredueno>Carmen</nombredueno>
         <apellidos>Montejo</apellidos>
-        <consulta factura_id="983679856"></consulta>
+        <consulta factura_id="983679856"/>
         <fecha_consulta>04-01-2021</fecha_consulta>
         <descripcion>Tratamiento para aprobar a Rocio</descripcion>
+    </perro>
+    <perro chip="fkhgchck">
+        <nombre>hgffhgffghghgvh</nombre>
+        <raza/>
+        <fecha_nacimiento/>
+        <nombredueno>hvchc</nombredueno>
+        <apellidos>jvjhvjbv</apellidos>
+        <fecha_consulta>jvjvjv</fecha_consulta>
+        <descripcion>jv.jvj</descripcion>
     </perro>
 </clinica_veterinaria>
