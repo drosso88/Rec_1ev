@@ -208,7 +208,8 @@ public class ModificarDatos extends javax.swing.JFrame {
 
     private void btnBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarActionPerformed
         miGestorJAXB.abrirXML_JAXB();
-        consulta = Integer.parseInt(factura.getText());
+        
+        consulta = new Integer(Integer.parseInt(factura.getText()));
 
         informacion = miGestorJAXB.dameDatos(consulta);
         perroAnt.setText(informacion[0]);

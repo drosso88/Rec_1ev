@@ -40,17 +40,19 @@
         <propietario dni="8762865865q"/>
         <nombredueno>Carmen</nombredueno>
         <apellidos>Montejo</apellidos>
-        <consulta factura_id="983679856"/>
+        <consulta factura_id="9836796"/>
         <fecha_consulta>04-01-2021</fecha_consulta>
         <descripcion>Tratamiento para aprobar a Rocio</descripcion>
     </perro>
-    <perro chip="fkhgchck">
-        <nombre>hgffhgffghghgvh</nombre>
-        <raza/>
-        <fecha_nacimiento/>
-        <nombredueno>hvchc</nombredueno>
-        <apellidos>jvjhvjbv</apellidos>
-        <fecha_consulta>jvjvjv</fecha_consulta>
-        <descripcion>jv.jvj</descripcion>
+    <perro chip="12345r">
+        <nombre>huhuhu</nombre>
+        <raza>mestizo</raza>
+        <fecha_nacimiento>21-21-1999</fecha_nacimiento>
+        <propietario dni="123456H"/>
+        <nombredueno>Igor</nombredueno>
+        <apellidos>Repyakh</apellidos>
+        <consulta factura_id="1234534"/>
+        <fecha_consulta>12-12-1212</fecha_consulta>
+        <descripcion>cnaohwofhof</descripcion>
     </perro>
 </clinica_veterinaria>

@@ -45,7 +45,7 @@ class ManejadorSAX extends DefaultHandler {
             salida = salida + "Raza: ".trim();
         } else if (qName.equals("fecha_nacimiento")) {
             salida = salida + "Fecha de nacimento: ";
-            salida= salida + "\n";
+            salida= salida;
 
             //datos propietario
         } else if (qName.equals("propietario")) {
@@ -54,7 +54,7 @@ class ManejadorSAX extends DefaultHandler {
             salida = salida + ("Nombre: ").trim();
         } else if (qName.equals("apellidos")) {
             salida = salida + ("Apellidos: ").trim();
-            salida= salida + "\n";
+            salida= salida;
 
             //datos consulta
         } else if (qName.equals("consulta")) {
@@ -63,7 +63,7 @@ class ManejadorSAX extends DefaultHandler {
             salida = salida + "Fecha de la consulta: ";
         } else if (qName.equals("descripcion")) {
             salida = salida + "Motivo de la consulta: ".trim();
-            salida= salida + "\n";
+            salida= salida;
 
         }
     }
