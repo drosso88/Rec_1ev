@@ -54,6 +54,7 @@ public class ModificarDatos extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         perroAnt = new java.awt.TextField();
         btnModificar1 = new javax.swing.JButton();
+        mensajero = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -150,7 +151,9 @@ public class ModificarDatos extends javax.swing.JFrame {
                                 .addComponent(btnBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(281, 281, 281)
-                                .addComponent(btnMostrarCambios, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(btnMostrarCambios, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(55, 55, 55)
+                                .addComponent(mensajero, javax.swing.GroupLayout.PREFERRED_SIZE, 292, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE))))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
@@ -194,7 +197,9 @@ public class ModificarDatos extends javax.swing.JFrame {
                         .addComponent(apNuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jLabel6))
                 .addGap(43, 43, 43)
-                .addComponent(btnMostrarCambios, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btnMostrarCambios, javax.swing.GroupLayout.DEFAULT_SIZE, 38, Short.MAX_VALUE)
+                    .addComponent(mensajero, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(30, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
@@ -231,6 +236,7 @@ public class ModificarDatos extends javax.swing.JFrame {
         informacionNueva[3] = apNuevo.getText();
         miGestorJAXB.modificaDatos(informacionNueva,consulta);
         miGestorJAXB.cerrarXML_JAXB();
+        mensajero.setText("Datos modificados correctamente");
         
     }//GEN-LAST:event_btnModificar1ActionPerformed
 
@@ -285,6 +291,7 @@ public class ModificarDatos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel mensajero;
     private java.awt.TextField nombreAnt;
     private java.awt.TextField nombreNuevo;
     private java.awt.TextField perroAnt;
